@@ -1,10 +1,10 @@
-jquery.equalheight
+## jquery.equalheight
 ==================
 
 Responsive Equal Height Plugin for jQuery
 
 
-usage (native)
+### usage (native)
 ==================
 
 $(window).load(function() {
@@ -12,7 +12,7 @@ $(window).load(function() {
 });
 
 
-usage (jQuery)
+### usage (jQuery)
 ==================
 
 $(doeument).ready(function() {
@@ -20,7 +20,7 @@ $(doeument).ready(function() {
 });
 
 
-usage (resize - must)
+### usage (resize - must)
 ==================
 $(window).resize(function(){
 	$('.elementsToBeFixedByHeight').equalHeight();
