@@ -1,4 +1,8 @@
-/*jquery.equalheight.js*/
+/*
+* Responsive Equal Height Plugin with AMD Support
+* by the Chris Coyier / @chriscoyier
+* componentized with jQuery by Barış Güler / @hwclass
+*/
 
 define([ "jquery/dimensions", "jquery/offset" ], function( $ ) {
   
