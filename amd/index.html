@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <title>jQuery Snippets</title>
+	  <style type="text/css">
+	  	.fl {float :left;}
+		  .elementsToBeFixedByHeight {
+		  	width: 125px;	
+		  }
+		  .first {background: #DDD;}
+		  .second {background: #EFEFEF;}
+		  .third {background: #EDEDED;}
+	  </style>
+	</head>
+	<body>
+		<script src="bower_components/requirejs/require.js"></script>
+		<script>
+		  require.config({
+			  paths: {
+			    "jquery": "bower_components/jquery/src",
+			    "sizzle": "bower_components/sizzle/dist/sizzle"
+			  }
+		  });
+		  require([ "app" ]);
+		</script>
+		<div class="fl elementsToBeFixedByHeight first">test test test test</div>
+		<div class="fl elementsToBeFixedByHeight second">test test test test test test test test test test test test</div>
+		<div class="fl elementsToBeFixedByHeight third">test test test test test test test test test test test test test test test test test test test test</div>
+	</body>
+</html>
