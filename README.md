@@ -24,13 +24,3 @@ $(document).ready(function() {
 });
 </code>
 </pre>
-
-### usage (resize - must)
-==================
-<pre lang="javascript">
-<code>
-$(window).resize(function(){
-	$('.elementsToBeFixedByHeight').equalHeight();
-});
-</code>
-</pre>
