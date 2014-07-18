@@ -31,5 +31,8 @@
 				rowDivs[currentDiv].height(currentTallest);
 		  }
 		});
+		$(window).resize(function(){
+	    $('.elementsToBeFixedByHeight').equalHeight();
+		});
 	}
 })(jQuery);
