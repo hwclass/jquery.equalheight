@@ -32,7 +32,7 @@
 		  }
 		});
 		$(window).resize(function(){
-	    $('.elementsToBeFixedByHeight').equalHeight();
+	    $(container).equalHeight();
 		});
 	}
 })(jQuery);
